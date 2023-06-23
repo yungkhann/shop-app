@@ -1,0 +1,13 @@
+{
+  "searchableAttributes": ["name", "description"],
+  "filterableAttributes": ["platforms", "players", "genres", "misc"],
+  "rankingRules": [
+    "words",
+    "typo",
+    "proximity",
+    "attribute",
+    "sort",
+    "exactness"
+  ],
+  "sortableAttributes": ["recommendationCount"]
+}
